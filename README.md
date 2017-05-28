@@ -1,12 +1,10 @@
-# callable-decorator
+# [WIP] callable-decorator
 
 Makes any ES class instance callable as function, allowing you to set magic method `[SYMBOL_CALL]`.
 
 # Usage
 
-```console
-yarn add callable-decorator
-```
+~~yarn add callable-decorator~~
 
 ```js
 import { callable, SYMBOL_CALL } from 'callable-decorator';
