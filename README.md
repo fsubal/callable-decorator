@@ -22,6 +22,10 @@ class Decorated {
     return 50;
   }
 }
+
+const canBeCalled = new Decorated(1, 2);
+
+console.log(canBeCalled()); // 50
 ```
 
 # Test
