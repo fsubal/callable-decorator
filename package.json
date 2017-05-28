@@ -1,6 +1,6 @@
 {
   "name": "callable-decorator",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "(experimental) Magick method __call__ equivalent of Python in ES classes.",
   "main": "lib/indes.js",
   "repository": "https://github.com/fsubal/callable-decorator.git",
@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "$(yarn bin)/babel -d lib/ src/",
-    "test": "$(yarn bin)/mocha --debug --debug-brk --recursive test/ --compilers js:babel-core/register"
+    "inspect": "node-inspector &",
+    "test": "$(yarn bin)/mocha --debug test/index.js --compilers js:babel-core/register"
   },
   "dependencies": {
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
