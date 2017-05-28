@@ -39,7 +39,7 @@ yarn test
 
 ## Q. Is instance of the decorated class really `instanceof` original class?
 
-Yes and no. Look at `/test/index.js`.
+Currently no, but I want to. Look at `/test/index.js`.
 
 ```js
 @callable
