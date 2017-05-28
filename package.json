@@ -1,0 +1,9 @@
+{
+  "name": "callable-decorator",
+  "version": "1.0.0",
+  "description": "(experimental) Magick method __call__ equivalent of Python in ES classes.",
+  "main": "lib/indes.js",
+  "repository": "https://github.com/fsubal/callable-decorator.git",
+  "author": "Chiaki KUDO",
+  "license": "MIT"
+}
