@@ -50,11 +50,11 @@ class A {
 }
 
 // 🙆
-console.log(new A instanceof A) // true
 class B extends A {  } // does not throw error.
 
 // 🤔 
 console.log(new A) // function() { return 10; }, not class instance
+console.log(new A instanceof A) // true
 ```
 
 ## Q. Would you add the feature like `classy-decorator` to this library ?
