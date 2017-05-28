@@ -4,13 +4,29 @@ Makes any ES class instance callable as function, allowing you to set magic meth
 
 # Usage
 
-```
+```console
 yarn add callable-decorator
+```
+
+```js
+import { callable, SYMBOL_CALL } from 'callable-decorator';
+
+@callable
+class Decorated {
+  constructor(a, b) {
+    this.a = a;
+    this.b = b;
+  }
+
+  [SYMBOL_CALL]() {
+    return 50;
+  }
+}
 ```
 
 # Test
 
-```
+```console
 yarn build
 yarn test
 ```
@@ -23,7 +39,7 @@ yarn test
 
 Yes and no. Look at `/test/index.js`.
 
-```
+```js
 @callable
 class A {
   [SYMBOL_CALL]() {
