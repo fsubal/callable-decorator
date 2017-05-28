@@ -4,9 +4,7 @@ Makes any ES class instance callable as function, allowing you to set magic meth
 
 # Usage
 
-```md
 ~~yarn add callable-decorator~~
-```
 
 ```js
 import { callable, SYMBOL_CALL } from 'callable-decorator';
